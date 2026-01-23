@@ -1,0 +1,61 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+**Data:** 15/01/2026  
+**Empresa:** Abstergo Industries  
+**Responsável:** Agno Silva
+
+---
+
+ Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa **Abstergo Industries**, realizado por **Agno Silva**.  
+O objetivo do projeto foi elencar **três serviços AWS** capazes de gerar **redução imediata de custos**, mantendo a eficiência operacional e garantindo escalabilidade para o ambiente corporativo.
+
+---
+
+ Descrição do Projeto
+O projeto foi dividido em três etapas, cada uma dedicada a um serviço AWS estratégico para otimização de custos.
+
+---
+
+Etapa 1
+- **Nome da ferramenta:** Amazon S3  
+- **Foco da ferramenta:** Armazenamento escalável e econômico  
+- **Descrição de caso de uso:**  
+  A empresa possuía arquivos armazenados em servidores locais e volumes EBS de alto custo. A migração para o Amazon S3 permitiu reduzir gastos, eliminar manutenção de hardware e aplicar classes de armazenamento inteligentes (S3 Intelligent-Tiering), reduzindo custos automaticamente conforme o padrão de acesso.
+
+---
+
+Etapa 2
+- **Nome da ferramenta:** AWS Lambda  
+- **Foco da ferramenta:** Execução de código sob demanda  
+- **Descrição de caso de uso:**  
+  Processos internos de automação rodavam em instâncias EC2 24/7, mesmo sendo utilizados poucas vezes ao dia. A migração para AWS Lambda eliminou custos de instâncias ociosas, permitindo que a empresa pagasse apenas pelo tempo de execução real.
+
+---
+
+ Etapa 3
+- **Nome da ferramenta:** Amazon Aurora Serverless v2  
+- **Foco da ferramenta:** Banco de dados escalável com cobrança por uso  
+- **Descrição de caso de uso:**  
+  O banco de dados principal da empresa operava em uma instância RDS superdimensionada. A migração para Aurora Serverless v2 permitiu escalabilidade automática conforme a demanda, reduzindo custos em períodos de baixa utilização e mantendo alta performance durante picos.
+
+---
+
+ Conclusão
+A implementação das ferramentas na empresa **Abstergo Industries** proporcionou **redução imediata de custos**, maior escalabilidade, eliminação de infraestrutura ociosa e aumento da eficiência dos processos internos.  
+Recomenda-se a continuidade do uso das soluções adotadas e a avaliação periódica de novas tecnologias AWS que possam aprimorar ainda mais os processos da empresa.
+
+---
+
+ Anexos
+- Documentação de migração para Amazon S3  
+- Scripts de automação AWS Lambda  
+- Arquitetura Aurora Serverless  
+- Planilhas de comparação de custos antes/depois  
+
+---
+
+**Assinatura do Responsável pelo Projeto:**  
+Agno Santana
+
+
